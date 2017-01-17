@@ -3,7 +3,7 @@ var C = require('../cash.js');  // our module
 
 describe('Cash Register', function(){
   describe('Module C', function(){
-    it('should have a getChange Method', function(){
+    it('should have a getChange Method', function(){  //There must be a getChange Method in Module C -(cash.js).
       assert.equal(typeof C, 'object');
       assert.equal(typeof C.getChange, 'function');
     })
