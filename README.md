@@ -448,7 +448,7 @@ https://github.com/dwyl/learn-travis
 > Visit: https://travis-ci.org/profile
 > Enable Travis for your project
 
-![shani](https://travis-ci.org/jce-il-ex/learn-tdd-shoshanasi)
+
 
 
 ![Travis Enabled](https://raw.github.com/jce-il/learn-mocha/master/images/travis-on.png "Travis Enabled")
@@ -456,6 +456,10 @@ https://github.com/dwyl/learn-travis
 There are other tool that can be chained, see for example the badges in the begining of this page.
 
 Update the link below in the README file, to point to **your** repository status (as well as in the beginning).
+
+![Link to my repository status](https://travis-ci.org/jce-il-ex/learn-tdd-shoshanasi)
+
+
 
 [![Travis Build Status](https://travis-ci.org/jce-il/learn-mocha.svg)](https://travis-ci.org/jce-il/learn-mocha)
 
