@@ -4,12 +4,12 @@ var C = require('../cash.js');  // our module
 describe('Cash Register', function(){
   describe('Module C', function(){
     it('should have a getChange Method', function(){  //There must be a getChange Method in Module C -(cash.js).
-      assert.equal(typeof C, 'object');
-      assert.equal(typeof C.getChange, 'function');
+      assert.equal(typeof C, 'object');               //c must be of type object.
+      assert.equal(typeof C.getChange, 'function');   //c.getChange must be of type function.
     })
 	
 	it('getChange(210,300) should equal [50,20,20]', function(){
-    assert.deepEqual(C.getChange(210,300), [50,20,20]);
+    assert.deepEqual(C.getChange(210,300), [50,20,20]);          //deepEqual must be used for arrays and not just a plain equal function.
     })
 	
 	it('getChange(486,1000) should equal [500, 10, 2, 2]', function(){
